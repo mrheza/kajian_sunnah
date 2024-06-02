@@ -19,11 +19,17 @@ class LoginService {
 
       if (response.statusCode == 200) {
         var model = LoginResponse.fromJson(response.data);
-        print(model.result.token);
+        prefs.setString('token', model.result.token);
+        print(prefs.getString('token'));
       }
     } catch (e) {
       print(e.toString());
-      print(e.toString());
     }
+  }
+
+  logout() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.remove('token');
+    print(prefs.getString('token'));
   }
 }

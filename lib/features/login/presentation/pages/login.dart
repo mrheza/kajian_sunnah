@@ -28,14 +28,13 @@ class Login extends StatelessWidget {
             const Headline(),
             Column(
               children: [
-                const SizedBox(height: 60),
+                const SizedBox(height: 30),
                 Padding(
                   padding:
                       const EdgeInsets.only(left: 30, right: 30, bottom: 10),
                   child: TextFormField(
                     controller: emailController
                       ..text = "ahmadmundhofa@gmail.com",
-                    style: const TextStyle(fontSize: 16),
                     decoration: const InputDecoration(
                       focusedBorder: OutlineInputBorder(),
                       errorBorder: OutlineInputBorder(
@@ -53,7 +52,6 @@ class Login extends StatelessWidget {
                       const EdgeInsets.only(left: 30, right: 30, bottom: 10),
                   child: TextFormField(
                     controller: passwordController..text = "S0m3Un1Qv3@Pass",
-                    style: const TextStyle(fontSize: 16),
                     decoration: const InputDecoration(
                       focusedBorder: OutlineInputBorder(),
                       errorBorder: OutlineInputBorder(
@@ -66,7 +64,7 @@ class Login extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 30),
+                const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {
                     LoginService()

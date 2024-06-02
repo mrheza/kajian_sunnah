@@ -23,12 +23,11 @@ class Register extends StatelessWidget {
           children: [
             Column(
               children: [
-                const SizedBox(height: 60),
+                const SizedBox(height: 30),
                 Padding(
                   padding:
-                      const EdgeInsets.only(left: 30, right: 30, bottom: 10),
+                      const EdgeInsets.only(left: 30, right: 30, bottom: 5),
                   child: TextFormField(
-                    style: const TextStyle(fontSize: 16),
                     decoration: const InputDecoration(
                       focusedBorder: OutlineInputBorder(),
                       errorBorder: OutlineInputBorder(
@@ -43,9 +42,8 @@ class Register extends StatelessWidget {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsets.only(left: 30, right: 30, bottom: 10),
+                      const EdgeInsets.only(left: 30, right: 30, bottom: 5),
                   child: TextFormField(
-                    style: const TextStyle(fontSize: 16),
                     decoration: const InputDecoration(
                       focusedBorder: OutlineInputBorder(),
                       errorBorder: OutlineInputBorder(
@@ -60,9 +58,8 @@ class Register extends StatelessWidget {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsets.only(left: 30, right: 30, bottom: 10),
+                      const EdgeInsets.only(left: 30, right: 30, bottom: 5),
                   child: TextFormField(
-                    style: const TextStyle(fontSize: 16),
                     decoration: const InputDecoration(
                       focusedBorder: OutlineInputBorder(),
                       errorBorder: OutlineInputBorder(
@@ -77,9 +74,8 @@ class Register extends StatelessWidget {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsets.only(left: 30, right: 30, bottom: 10),
+                      const EdgeInsets.only(left: 30, right: 30, bottom: 5),
                   child: TextFormField(
-                    style: const TextStyle(fontSize: 16),
                     decoration: const InputDecoration(
                       focusedBorder: OutlineInputBorder(),
                       errorBorder: OutlineInputBorder(
@@ -94,9 +90,8 @@ class Register extends StatelessWidget {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsets.only(left: 30, right: 30, bottom: 10),
+                      const EdgeInsets.only(left: 30, right: 30, bottom: 5),
                   child: TextFormField(
-                    style: const TextStyle(fontSize: 16),
                     decoration: const InputDecoration(
                       focusedBorder: OutlineInputBorder(),
                       errorBorder: OutlineInputBorder(
@@ -111,9 +106,8 @@ class Register extends StatelessWidget {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsets.only(left: 30, right: 30, bottom: 10),
+                      const EdgeInsets.only(left: 30, right: 30, bottom: 5),
                   child: TextFormField(
-                    style: const TextStyle(fontSize: 16),
                     decoration: const InputDecoration(
                       focusedBorder: OutlineInputBorder(),
                       errorBorder: OutlineInputBorder(
@@ -128,10 +122,9 @@ class Register extends StatelessWidget {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsets.only(left: 30, right: 30, bottom: 10),
+                      const EdgeInsets.only(left: 30, right: 30, bottom: 5),
                   child: TextFormField(
                     maxLines: 3,
-                    style: const TextStyle(fontSize: 16),
                     decoration: const InputDecoration(
                       alignLabelWithHint: true,
                       focusedBorder: OutlineInputBorder(),
@@ -145,7 +138,7 @@ class Register extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 30),
+                const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
@@ -162,7 +155,7 @@ class Register extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 15),
+                const SizedBox(height: 10),
                 const Padding(
                   padding: EdgeInsets.only(left: 120, right: 120),
                   child: Divider(
@@ -171,7 +164,7 @@ class Register extends StatelessWidget {
                     color: Color(0xFFB2BAFD),
                   ),
                 ),
-                const SizedBox(height: 15),
+                const SizedBox(height: 10),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [

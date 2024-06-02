@@ -25,13 +25,13 @@ class Initial extends StatelessWidget {
             const Headline(),
             Column(
               children: [
-                const SizedBox(height: 35),
+                const SizedBox(height: 30),
                 const Text(
                   'Aplikasi ini hadir untuk mendukung\naktifitas kaum muslimin mendapatkan\nagenda, artikel dan pengumuman seputar\nkajian sunnah',
                   style: TextStyle(color: Colors.white, fontSize: 16),
                   textAlign: TextAlign.center,
                 ),
-                const SizedBox(height: 35),
+                const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).push(
@@ -54,7 +54,7 @@ class Initial extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 15),
+                const SizedBox(height: 10),
                 ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).push(
